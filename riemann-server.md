@@ -22,7 +22,7 @@ Enable Ruby
 Permanent 
 ```vi /etc/profile.d/rh-ruby27.sh```
 >    source /opt/rh/rh-ruby27/enable
-    export X_SCLS="`scl enable rh-ruby27 'echo $X_SCLS'`"
+>    export X_SCLS="`scl enable rh-ruby27 'echo $X_SCLS'`"
 
 Install Riemann-Tools
 ```gem install riemann-client riemann-tools riemann-dash```
