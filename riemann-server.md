@@ -1,8 +1,8 @@
 Install dependency
-```yum install bash-completion wget jre bzip2 gcc```
+>yum install bash-completion wget jre bzip2 gcc
 
 Enable Auto Completion
-```source /etc/profile.d/bash_completion.sh```
+>source /etc/profile.d/bash_completion.sh
 
 Download Riemann Server
 ```wget https://github.com/riemann/riemann/releases/download/0.3.6/riemann-0.3.6.tar.bz2```
@@ -21,8 +21,8 @@ Enable Ruby
 
 Permanent 
 ```vi /etc/profile.d/rh-ruby27.sh```
->    source /opt/rh/rh-ruby27/enable
-    export X_SCLS="`scl enable rh-ruby27 'echo $X_SCLS'`">
+    source /opt/rh/rh-ruby27/enable
+    export X_SCLS="`scl enable rh-ruby27 'echo $X_SCLS'`"
 
 Install Riemann-Tools
 ```gem install riemann-client riemann-tools riemann-dash```
