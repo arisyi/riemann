@@ -20,8 +20,8 @@ Enable Ruby
 >scl enable rh-ruby27 bash
 
 Permanent 
-```vi /etc/profile.d/rh-ruby27.sh
-    source /opt/rh/rh-ruby27/enable```
+>vi /etc/profile.d/rh-ruby27.sh
+source /opt/rh/rh-ruby27/enable
 
 Install Riemann-Tools
 >gem install riemann-client riemann-tools riemann-dash
