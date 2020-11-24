@@ -1,4 +1,6 @@
+Install dependency
 ```yum install bash-completion wget jre bzip2 gcc```
+
 ```source /etc/profile.d/bash_completion.sh```
 ```wget https://github.com/riemann/riemann/releases/download/0.3.6/riemann-0.3.6.tar.bz2```
 ```tar xjvf riemann-0.3.6.tar.bz2```
